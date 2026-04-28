@@ -1,0 +1,42 @@
+多层 LSTM 机器翻译实验结果
+====================================
+Baseline 最终 train_loss: 0.2118
+Baseline 最终 eval_loss : 0.1709
+Attention 最终 train_loss: 0.0378
+Attention 最终 eval_loss : 0.0208
+
+样例翻译：
+输入：i like apples
+参考：我喜欢苹果
+普通 LSTM：我喜欢苹果
+注意力 LSTM：我喜欢苹果
+
+输入：she is happy
+参考：她很高兴
+普通 LSTM：她很高兴
+注意力 LSTM：她很高兴
+
+输入：we will read books
+参考：我们将读书
+普通 LSTM：我们将读书
+注意力 LSTM：我们将读书
+
+输入：they do not drink water
+参考：他们不喝水
+普通 LSTM：他们不喝足球
+注意力 LSTM：他们不喝水
+
+输入：please buy movies
+参考：请买电影
+普通 LSTM：请买电影
+注意力 LSTM：请买电影
+
+输入：where is the library
+参考：图书馆在哪里
+普通 LSTM：图书馆在哪里
+注意力 LSTM：图书馆在哪里
+
+输入：this is a book
+参考：这是书
+普通 LSTM：这是书
+注意力 LSTM：这是书

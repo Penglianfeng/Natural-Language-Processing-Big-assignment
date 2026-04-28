@@ -1,0 +1,69 @@
+{
+  "device": "cpu",
+  "num_pairs": 201,
+  "src_vocab_size": 80,
+  "tgt_vocab_size": 65,
+  "epochs": 40,
+  "num_layers": 2,
+  "hidden_dim": 64,
+  "baseline_final_eval_loss": 0.17085581827302312,
+  "attention_final_eval_loss": 0.020831695634351912,
+  "baseline_sample_exact_match": 0.8571428571428571,
+  "attention_sample_exact_match": 1.0,
+  "attention_heatmap_sentence": "i like apples",
+  "attention_heatmap_prediction": "我喜欢苹果",
+  "attention_source_tokens": [
+    "i",
+    "like",
+    "apples"
+  ],
+  "attention_target_tokens": [
+    "我",
+    "喜欢",
+    "苹果"
+  ],
+  "predictions": [
+    {
+      "input": "i like apples",
+      "gold": "我喜欢苹果",
+      "baseline": "我喜欢苹果",
+      "attention": "我喜欢苹果"
+    },
+    {
+      "input": "she is happy",
+      "gold": "她很高兴",
+      "baseline": "她很高兴",
+      "attention": "她很高兴"
+    },
+    {
+      "input": "we will read books",
+      "gold": "我们将读书",
+      "baseline": "我们将读书",
+      "attention": "我们将读书"
+    },
+    {
+      "input": "they do not drink water",
+      "gold": "他们不喝水",
+      "baseline": "他们不喝足球",
+      "attention": "他们不喝水"
+    },
+    {
+      "input": "please buy movies",
+      "gold": "请买电影",
+      "baseline": "请买电影",
+      "attention": "请买电影"
+    },
+    {
+      "input": "where is the library",
+      "gold": "图书馆在哪里",
+      "baseline": "图书馆在哪里",
+      "attention": "图书馆在哪里"
+    },
+    {
+      "input": "this is a book",
+      "gold": "这是书",
+      "baseline": "这是书",
+      "attention": "这是书"
+    }
+  ]
+}
